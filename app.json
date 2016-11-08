@@ -1,0 +1,8 @@
+{
+  "name": "Radio Streamer",
+  "description": "To listen radio anywhere",
+  "repository": "https://github.com/rodrigo-delgado/radio-personal",
+  "logo": "",
+  "keywords": ["node", "express", "static"],
+  "image": ""
+}
