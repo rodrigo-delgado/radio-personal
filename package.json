@@ -1,0 +1,23 @@
+{
+  "name": "radio-personal",
+  "version": "1.0.0",
+  "description": "radio stream app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodrigo-delgado/radio-personal.git"
+  },
+  "author": "Rodrigo Delgado",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rodrigo-delgado/radio-personal/issues"
+  },
+  "homepage": "https://github.com/rodrigo-delgado/radio-personal#readme",
+  "dependencies": {
+    "ejs": "^2.5.2",
+    "express": "^4.14.0"
+  }
+}
