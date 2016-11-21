@@ -2,15 +2,23 @@
   <div class="container">
     <a href="#" class="metallica-image"></a>
     <h1>Radio</h1>
+    <h3>Search for an Artist</h3>
 
-    <p>Rock!</p>
+    <form id="search-form">
+        <input type="text" id="query" value="" class="form-control" placeholder="Type an Artist Name"/><br />
+        <input type="submit" id="search" class="btn btn-primary" value="Search" />
+    </form>
+    <div id="results"></div>
+</div>
+</div>
+    <!-- <p>Rock!</p>
     <a type="button" class="btn btn-lg btn-default" href="#"><span class="glyphicon glyphicon-flash"></span> Getting Started with Radio</a>
     <a type="button" class="btn btn-lg btn-primary" href="#"><span class="glyphicon glyphicon-flash"></span> Source</a>
-  </div>
-</div>
+  </div> -->
+
 <div class="container">
   <div class="alert alert-info text-center" role="alert">
-    To deploy your own app  <a href="#" class="alert-link">Getting Started RockTC</a> tutorial.
+    <a href="#" class="alert-link">Getting Started RockTC</a>
   </div>
   <section id="service">
 				<div class="container">
@@ -24,7 +32,7 @@
 						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow animated zoomIn">
 							<div class="service-item">
 								<div class="service-icon">
-									<i class="fa fa-play-circle fa-4x" onclick="playRadio1" id="playRadio1"></i>
+									<i class="fa fa-play-circle fa-4x" onclick="playRadio1()" id="playRadio1"></i>
 								</div>
 								<h3>Radio1</h3>
 								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>

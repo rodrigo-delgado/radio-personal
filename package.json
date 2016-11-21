@@ -18,6 +18,7 @@
   "homepage": "https://github.com/rodrigo-delgado/radio-personal#readme",
   "dependencies": {
     "ejs": "^2.5.2",
-    "express": "^4.14.0"
+    "express": "^4.14.0",
+    "superagent": "^2.3.0"
   }
 }
